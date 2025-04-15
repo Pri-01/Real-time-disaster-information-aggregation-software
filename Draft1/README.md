@@ -17,9 +17,10 @@ The repository is organized as follows:
 
 - **`src/`**:
   - The source code directory housing the main scripts.
-  - **`train_model.py`**: The core script responsible for loading the dataset, preprocessing text, training a machine learning model (MultiOutputClassifier with LogisticRegression), evaluating its performance, and testing it on sample tweets. (Paste the path for your `Tweet_Disaster.xlsx` file in the required line (153) (obviously removing the - ${}) as shown in this image -
+  - **`train_model.py`**: The core script responsible for loading the dataset, preprocessing text, training a machine learning model (MultiOutputClassifier with LogisticRegression), evaluating its performance, and testing it on sample tweets. (Paste the path for your `Tweet_Disaster.xlsx` file in the required line (152) as shown in this image -
 
-     ![Screenshot 2025-04-16 004109](https://github.com/user-attachments/assets/b8296d3a-a392-47c8-b7aa-3160eea51c58) )
+     ![image](https://github.com/user-attachments/assets/36478960-d9fa-48ef-b68b-0951afe95d2f)
+
 
   - **`visualize.py`**: A script dedicated to generating and displaying visualizations (e.g., bar plots comparing true vs. predicted counts for each target category).
   - **`.gitignore`**: A configuration file specifying files and directories to exclude from Git version control, such as sensitive data, virtual environments, and temporary files.
