@@ -83,8 +83,8 @@ This project can be deployed by disaster response teams to monitor social media 
 
 ## Installation guide - 
 
-- Clone the repo using - "git clone <repo-url>"
-- Change directory to the file using - "cd <repo-name>"
+- Clone the repo using - "git clone `<repo-url>`"
+- Change directory to the file using - "cd `<repo-name>`"
 - Create a virtual environment using the following scripts - 
   - Install virtualenv if not already installed
     - "pip install virtualenv"
