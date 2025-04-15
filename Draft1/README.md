@@ -11,13 +11,14 @@ The repository is organized as follows:
 - **`Draft1/`**:
   - A directory for draft or experimental files that may contain early versions or prototypes of the code. This is optional and can be ignored if not in use.
 
-- **`data/`**:
+- **`data/`**: (To be added by the respective developer - create a data folder and keep the file `Tweet_Disaster.xlsx` inside it as shown in the project structure)
   - Contains the dataset used for training and testing the model.
   - **`Tweet_Disaster.xlsx`**: The primary Excel file containing tweet data with columns such as `Tweet Text`, `HashTags`, `Keywords (Needed things(food,water))`, `Keywords (Locations)`, `Keywords (Medicines)`, `Keywords (Diseases)`, and target flags (e.g., `Flag`, `IndFlag`, `FloodFlag`, `Need Flag`). This file is excluded from version control due to potential sensitivity and size.
 
 - **`src/`**:
   - The source code directory housing the main scripts.
-  - **`train_model.py`**: The core script responsible for loading the dataset, preprocessing text, training a machine learning model (MultiOutputClassifier with LogisticRegression), evaluating its performance, and testing it on sample tweets.
+  - **`train_model.py`**: The core script responsible for loading the dataset, preprocessing text, training a machine learning model (MultiOutputClassifier with LogisticRegression), evaluating its performance, and testing it on sample tweets. (Paste the path for your `Tweet_Disaster.xlsx` file in the required line as shown in this image - ![Screenshot 2025-04-16 004109](https://github.com/user-attachments/assets/b8296d3a-a392-47c8-b7aa-3160eea51c58) )
+
   - **`visualize.py`**: A script dedicated to generating and displaying visualizations (e.g., bar plots comparing true vs. predicted counts for each target category).
   - **`.gitignore`**: A configuration file specifying files and directories to exclude from Git version control, such as sensitive data, virtual environments, and temporary files.
 
