@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Mac OS / Windows system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python test/cache files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.cache/
+*.pytest_cache/
+
+# Excel and data files
+*.xlsx
+*.xls
+*.csv
+
+# Model files / weights
+*.h5
+*.pt
+*.pkl
+*.joblib
+
+# JSON output or config files (if generated during runtime)
+*.json
+
+# Matplotlib and other figures
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# If storing tokenizers or transformers cache
+.cache/
+transformers_cache/
+datasets/
+
+# Temporary files
+*.out
+*.err
+
+# PIP dependency files
+pip-log.txt
+
+# Environment variable files
+.env
+.env.*
+
+# Colab/Notebook related files
+*.nbconvert.ipynb
