@@ -77,3 +77,25 @@ This project can be deployed by disaster response teams to monitor social media 
   - `transformers` (HuggingFace) for potential future NER enhancements (currently unused).
   - `matplotlib` for visualization.
   - `re` for text preprocessing.
+
+## Installation guide - 
+
+- Clone the repo using - "git clone <repo-url>"
+- Change directory to the file using - "cd <repo-name>"
+- Create a virtual environment using the following scripts - 
+  - Install virtualenv if not already installed
+    - "pip install virtualenv"
+
+  - Create and activate virtual environment
+    - "virtualenv venv"
+
+    - Windows:
+      - "venv\Scripts\activate"
+
+    - macOS/Linux:
+      - "source venv/bin/activate"
+
+-Install Dependencies - 
+  - "pip install -r requirements.txt"
+- Go to the train_model file and run it or use - 
+  - "python src/train_model.py"
