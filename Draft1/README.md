@@ -95,7 +95,7 @@ This project can be deployed by disaster response teams to monitor social media 
     - macOS/Linux:
       - "source venv/bin/activate"
 
--Install Dependencies - 
+- Install Dependencies - 
   - "pip install -r requirements.txt"
 - Go to the train_model file and run it or use - 
   - "python src/train_model.py"
