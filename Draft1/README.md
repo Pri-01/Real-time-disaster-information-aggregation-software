@@ -3,6 +3,8 @@
 This repository contains a comprehensive Python-based project designed to analyze disaster-related tweets for extracting critical information such as food requirements, geographic locations, medical needs, and prevalent diseases. The project leverages natural language processing (NLP) techniques and machine learning to classify tweets, identify key entities, and provide actionable insights for disaster response and management. The codebase is structured to be modular, extensible, and reusable, making it suitable for researchers, data scientists, and disaster response teams.
 
 ## Project Structure
+![Screenshot 2025-04-15 204719](https://github.com/user-attachments/assets/f926b25b-928f-451d-869c-6818ad681156)
+
 
 The repository is organized as follows:
 
