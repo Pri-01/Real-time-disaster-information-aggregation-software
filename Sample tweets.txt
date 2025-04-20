@@ -1,0 +1,39 @@
+"I have severe diarrhea and need ORS, loperamide, norfloxacin, and zinc tablets. I also require bottled water and bananas. My location is Bangalore."
+
+"My blood pressure is high today. I need amlodipine, losartan, and a digital BP monitor. Can someone deliver wheat flour and vegetables to me in Mumbai?"
+
+"I'm experiencing allergy symptoms - need cetirizine, levocetirizine, and an inhaler. Also require honey and tulsi leaves. Currently in Hyderabad."
+
+"Got injured in a minor accident. Need bandages, antiseptic cream, ibuprofen and a crepe bandage. Also want bread and eggs. Location: Kolkata."
+
+"COVID positive case here. Need oximeter, vitamin C tablets, paracetamol and steam inhaler. Require khichdi and coconut water. In Delhi currently."
+
+"Diabetic emergency - need insulin syringes, glucose strips and metformin. Also request sugar-free biscuits and almonds. My location is Pune."
+
+"Child has fever and vomiting. Need pediatric paracetamol, ORS and antiemetic syrup. Also require rice porridge and bananas. We're in Ahmedabad."
+
+"Severe back pain - need diclofenac gel, muscle relaxants and a hot water bag. Also want pain relief spray and Epsom salt. Location: Jaipur."
+
+"Asthma attack - need salbutamol inhaler, montelukast and steam inhalation kit. Also require tulsi tea. Currently in Lucknow."
+
+"Food poisoning case - need antibiotics, probiotics and antiemetics. Also request curd rice and coconut water. My location is Coimbatore."
+
+"I have a fever and need paracetamol, ORS, and azithromycin. Resources are available at Apollo Pharmacy nearby. I live in Chennai and also need rice and bananas."
+
+"Severe cough and cold—require cough syrup, cetirizine, and steam inhalation. Medicines are in stock at MedPlus. I’m in Bangalore and need honey and ginger."
+
+"High blood pressure emergency. Need amlodipine and losartan, available at Trust Chemist. Also require low-sodium snacks. Location: Mumbai."
+
+"Food poisoning—need norfloxacin and probiotics. Available at 24x7 Medicals. I’m in Hyderabad and want curd rice and ORS."
+
+"Injury from a fall—need bandages, antiseptic, and ibuprofen. First-aid kit is stocked at home. Also require ice packs. Currently in Kolkata."
+
+"Asthma attack—salbutamol inhaler is available with me, but need a refill. Nearby Reliance Wellness has stock. Also require tulsi tea. Location: Delhi."
+
+"Diabetic emergency—glucose tablets and insulin available, but need more strips. Pharmacy at Phoenix Mall has them. Also want sugar-free biscuits. In Pune."
+
+"Child with fever—pediatric paracetamol syrup is available at home, but need ORS. Nearby HealthPlus has stock. Also require apples. Location: Ahmedabad."
+
+"Severe allergy—need levocetirizine and hydrocortisone cream. Available at Guardian Pharmacy. Also want aloe vera gel. Currently in Jaipur."
+
+"Back pain—diclofenac gel and hot water bag available, but need a muscle relaxant. Local MedZone has stock. Also require Epsom salt. In Lucknow."
