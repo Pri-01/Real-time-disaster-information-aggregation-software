@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
   /* defined colors - matched with logo */
   --primary-color: #5E5E5E;
@@ -18,7 +20,7 @@
 
   /* fonts */
   --heading-font-size: 20px;
-  --font-family: Arial, sans-serif;
+  --font-family: "Roboto", sans-serif;
 
   /* spacing */
   --space-16: 1rem;
@@ -28,7 +30,6 @@
   --space-64: 4rem;
   --space-80: 5rem;
 }
-
 
 * {
   margin: 0;
@@ -174,6 +175,7 @@ header {
 }
 
 .location {
+    font-family: "Oswald", sans-serif;
   background-color: var(--no-items-bg-color);
   padding: 0.5rem;
   border-radius: 10px;
@@ -431,6 +433,8 @@ header {
 }
 
 .tweet-text {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
   color: var(--no-items-bg-color);
   background-color: #ffffff62;
   border-radius: 10px;
