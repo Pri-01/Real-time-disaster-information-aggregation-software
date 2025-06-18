@@ -423,14 +423,29 @@ if __name__ == '__main__':
 # import json
 # import logging
 # import requests
+# import os
+# from dotenv import load_dotenv
+# from pathlib import Path
+
 
 # # ----------- SETUP LOGGING -----------
 # logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 # logger = logging.getLogger(__name__)
 
+
+
+
+# # Load .env file from root directory
+# env_path = Path(__file__).resolve().parent.parent / '.env'
+# load_dotenv(dotenv_path=env_path)
+
+# # Get API credentials from environment
+# API_KEY = os.getenv("API_KEY")
+# BEARER_TOKEN = os.getenv("BEARER_TOKEN")
+
 # # ----------- CONFIGURE GEMINI -----------
 # try:
-#     genai.configure(api_key="")  # Replace with your actual Gemini API key
+#     genai.configure(api_key=API_KEY)  # Replace with your actual Gemini API key
 # except Exception as e:
 #     logger.error(f"Failed to configure Gemini API: {e}")
 #     raise
@@ -598,7 +613,8 @@ if __name__ == '__main__':
 
 # # ----------- TWITTER API FUNCTIONS -----------
 # # Replace with your actual Twitter Bearer Token
-# TWITTER_BEARER_TOKEN = ""
+
+# TWITTER_BEARER_TOKEN=BEARER_TOKEN
 
 # def get_ndrf_user_id():
 #     url = "https://api.twitter.com/2/users/by/username/ndrfhq"

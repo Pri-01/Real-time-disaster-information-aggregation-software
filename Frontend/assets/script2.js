@@ -489,8 +489,7 @@ function updateMapWithResources(resources) {
 
 
 
-
-// Global resource storage
+// // Global resource storage
 // let allResources = [];
 // const locationCoords = {}; // Geocode cache
 
@@ -638,16 +637,35 @@ function updateMapWithResources(resources) {
 //  * Fetch the latest tweets from NDRF via Flask backend and update UI.
 //  */
 // async function fetchTweetsAndAnalyze() {
+//   console.log("Fetching tweets...");
 //   const fetchButton = document.getElementById("fetch-tweets-btn");
-//   const spinner = document.querySelector(".spin");
+//   const defaultLoader = document.getElementById("default-loader");
+//   const fetchLoader = document.getElementById("fetch-loader");
+
+//   // Hide default loader, show fetch loader
+//   if (defaultLoader) defaultLoader.style.display = "none";
+//   if (fetchLoader) fetchLoader.style.display = "block";
+//   else console.warn("fetchLoader element not found in DOM");
+
+//   // Start fetch-time animation
+//   let fetchAnimation;
+//   if (fetchLoader) {
+//     fetchAnimation = lottie.loadAnimation({
+//       container: fetchLoader,
+//       renderer: "svg",
+//       loop: true,
+//       autoplay: true,
+//       path: "/Frontend/assets/mobile.json", // Ensure this path matches your project structure
+//     });
+//   }
 
 //   fetchButton.disabled = true;
 //   fetchButton.textContent = "Fetching...";
-//   spinner.style.display = "block";
 
 //   try {
-//     // Fetch analyzed tweets from Flask backend
+//     console.log("Making API call to http://localhost:5000/fetch-ndrf-tweets");
 //     const flaskResponse = await axios.get('http://localhost:5000/fetch-ndrf-tweets');
+//     console.log("API Response:", flaskResponse);
 //     if (flaskResponse.data.error) {
 //       throw new Error(flaskResponse.data.error);
 //     }
@@ -679,7 +697,9 @@ function updateMapWithResources(resources) {
 //   } finally {
 //     fetchButton.disabled = false;
 //     fetchButton.textContent = "Fetch Latest NDRF Tweets";
-//     spinner.style.display = "none";
+//     if (fetchAnimation) fetchAnimation.destroy(); // Clean up animation
+//     if (fetchLoader) fetchLoader.style.display = "none";
+//     if (defaultLoader) defaultLoader.style.display = "block";
 //   }
 // }
 
@@ -690,7 +710,9 @@ function updateMapWithResources(resources) {
 //  * 3. HELPER UTILITIES                                            *
 //  ******************************************************************/
 
-// // Geocode via Nominatim (cached)
+// /**
+//  * Geocode via Nominatim (cached)
+//  */
 // async function getLatLng(location) {
 //   if (locationCoords[location]) return locationCoords[location];
 //   try {
