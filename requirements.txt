@@ -8,3 +8,8 @@ numexpr
 openpyxl
 transformers
 dotenv
+flask==3.0.3 
+joblib==1.4.2 
+gunicorn==23.0.0 
+google-generativeai==0.8.3 
+flask-cors==5.0.0
