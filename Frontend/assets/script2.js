@@ -234,7 +234,8 @@ async function fetchTweetsAndAnalyze() {
   fetchButton.textContent = "Fetching...";
 
   try {
-    const flaskResponse = await axios.post('http://localhost:5000/predict', { tweets });
+    // const flaskResponse = await axios.post('http://localhost:5000/predict', { tweets });
+    const flaskResponse = await axios.post('https://real-time-disaster-information-yco0.onrender.com/predict', { tweets });
 
     if (flaskResponse.data.error) {
       throw new Error(flaskResponse.data.error);
